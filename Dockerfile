@@ -7,7 +7,7 @@ RUN apk add git
 
 RUN mkdir /build
 
-RUN git clone https://github.com/ybkuroki/go-webapp-sample.git
+RUN git clone https://github.com/pasanmd/go-webapp-docker.git
 
 WORKDIR go-webapp-sample
 
